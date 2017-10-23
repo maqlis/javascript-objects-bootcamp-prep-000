@@ -1,3 +1,7 @@
-var playlist = {}
-playlist.dido = "Life for Rent"
-console.log(playlist)
+var playlistt = {}
+playlistt.dido = "Life for Rent"
+
+function updatePlaylist(playlist, artist, song){
+  return Object.assign({}, playlist, { [artist]: song })
+}
+
