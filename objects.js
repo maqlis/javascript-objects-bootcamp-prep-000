@@ -9,5 +9,4 @@ function removeFromPlaylist(playlistt, artist){
   return playlistt
 }
 
-removeFromPlaylist(playlist, "dido")
-console.log(playlist)
+
