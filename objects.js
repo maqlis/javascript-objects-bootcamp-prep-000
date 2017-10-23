@@ -9,5 +9,5 @@ function removeFromPlaylist(playlistt, artist){
   return playlistt
 }
 
-removeFromPlaylist(playlist, dido)
+removeFromPlaylist(playlist, "dido")
 console.log(playlist)
