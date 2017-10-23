@@ -8,3 +8,6 @@ function removeFromPlaylist(playlistt, artist){
   delete playlistt.artist
   return playlistt
 }
+
+removeFromPlaylist(playlist, dido)
+console.log(playlist)
