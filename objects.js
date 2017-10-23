@@ -1,10 +1,10 @@
 var playlist = {}
 playlist.dido = "Life for Rent"
 
-function updatePlaylist(playlist, artist, song){
-  return Object.assign({}, playlist, { [artist]: song })
+function updatePlaylist(playlistt, artist, song){
+  return Object.assign({}, playlistt, { [artist]: song })
 }
-function removeFromPlaylist(playlist, artist){
-  delete playlist.artist
-  return playlist
+function removeFromPlaylist(playlistt, artist){
+  delete playlistt.artist
+  return playlistt
 }
